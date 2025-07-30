@@ -1,0 +1,10 @@
+workspace: "My API Tests"
+requests:
+  - name: "Get Users"
+    method: "GET"
+    url: "https://jsonplaceholder.typicode.com/users"
+
+  - name: "Create Post"
+    method: "POST"
+    url: "https://jsonplaceholder.typicode.com/posts"
+    body: '{"title":"foo","body":"bar","userId":1}'
